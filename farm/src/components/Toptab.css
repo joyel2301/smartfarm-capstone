@@ -1,0 +1,142 @@
+/* Top tab navigation styles */
+.toptab {
+  display: flex;
+  gap: 1px;
+  flex: 0; 
+}
+
+.toptab-btn {
+  appearance: none;
+  border: 1px solid #cad5e2;
+  border-radius: 10px;
+  background-color: #f5f7fa;
+  color: #1d293d;
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+}
+
+.toptab-btn:hover {
+  background: #eef2f7;
+}
+
+.toptab-btn.is-active {
+  border: 2px solid #a8b6c8;
+  background: #ffffff;
+}
+
+/* Per-button color themes (1..5) */
+/* 1: Warm yellow */
+.toptab .toptab-btn:nth-child(1) {
+  background: #fef3c7; /* amber-100 */
+  border-color: #fde68a; /* amber-200 */
+  border-radius: 10px 10px 0px 0px;
+  border-style: solid;
+  border-color: #cad5e2;
+  border-width: 2px 2px 0px 2px;
+  padding: 2px 2px 0px 2px;
+  width: 95px;
+  height: 40px;
+  left: 105px;
+  top: 0px;
+}
+.toptab .toptab-btn:nth-child(1):hover {
+  background: #fde68a; /* amber-200 */
+}
+.toptab .toptab-btn:nth-child(1).is-active {
+  background: #fffbeb; /* amber-50 */
+  border-color: #f59e0b; /* amber-500 */
+}
+
+/* 2: Soft green */
+.toptab .toptab-btn:nth-child(2) {
+  background: #dcfce7; /* green-100 */
+  border-color: #bbf7d0; /* green-200 */
+  border-radius: 10px 10px 0px 0px;
+  border-style: solid;
+  border-color: #cad5e2;
+  border-width: 2px 2px 0px 2px;
+  padding: 2px 2px 0px 2px;
+  width: 95px;
+  height: 40px;
+  left: 303.88px;
+  top: 0px;
+}
+.toptab .toptab-btn:nth-child(2):hover {
+  background: #bbf7d0; /* green-200 */
+}
+.toptab .toptab-btn:nth-child(2).is-active {
+  background: #f0fdf4; /* green-50 */
+  border-color: #10b981; /* green-500 */
+}
+
+/* 3: Light blue */
+.toptab .toptab-btn:nth-child(3) {
+  background: #e0f2fe; /* sky-100 */
+  border-color: #bae6fd; /* sky-200 */
+  border-radius: 10px 10px 0px 0px;
+  border-style: solid;
+  border-color: #cad5e2;
+  border-width: 2px 2px 0px 2px;
+  padding: 2px 2px 0px 2px;
+  width: 95px;
+  height: 40px;
+  left: 396.46px;
+  top: 0px;
+}
+.toptab .toptab-btn:nth-child(3):hover {
+  background: #bae6fd; /* sky-200 */
+}
+.toptab .toptab-btn:nth-child(3).is-active {
+  background: #f0f9ff; /* sky-50 */
+  border-color: #0ea5e9; /* sky-500 */
+}
+
+/* 4: Indigo */
+.toptab .toptab-btn:nth-child(4) {
+  background: #e0e7ff; /* indigo-100 */
+  border-color: #c7d2fe; /* indigo-200 */
+  border-radius: 10px 10px 0px 0px;
+  border-style: solid;
+  border-color: #cad5e2;
+  border-width: 2px 2px 0px 2px;
+  padding: 2px 2px 0px 2px;
+  width: 95px;
+  height: 40px;
+  left: 105px;
+  top: 0px;
+}
+.toptab .toptab-btn:nth-child(4):hover {
+  background: #c7d2fe; /* indigo-200 */
+}
+.toptab .toptab-btn:nth-child(4).is-active {
+  background: #eef2ff; /* indigo-50 */
+  border-color: #6366f1; /* indigo-500 */
+}
+
+/* 5: Pink */
+.toptab .toptab-btn:nth-child(5) {
+  background: #fccee8;
+  border-radius: 10px 10px 0px 0px;
+  border-style: solid;
+  border-color: #cad5e2;
+  border-width: 2px 2px 0px 2px;
+  padding: 2px 2px 0px 2px;
+  width: 75px;
+  height: 40px;
+  left: 396.46px;
+  top: 0px;
+}
+.toptab .toptab-btn:nth-child(5):hover {
+  background: #fbcfe8; /* pink-200 */
+}
+.toptab .toptab-btn:nth-child(5).is-active {
+  background: #fdf2f8; /* pink-50 */
+  border-color: #ec4899; /* pink-500 */
+}

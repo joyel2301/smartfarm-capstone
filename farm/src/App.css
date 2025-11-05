@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 전체 높이를 화면 높이로 설정 */
+}
+
+/* 공통 페이지 헤더 */
+.page-header {
+  padding: 16px 10px;
+
+}
+.page-title {
+  margin: 0 0 6px 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+.page-subtitle {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+/* 상단 공통 배경 래퍼 */
+.page-shell {
+  background: linear-gradient(135deg, rgba(248, 250, 252, 1) 0%, rgba(241, 245, 249, 1) 100%);
+  min-height: 100vh;
+  padding: 16px;
+}
+
+/* 페이지 내부 배경 비활성화 (Layout로 이동) */
+.desktop-1 .farming-dashboard,
+.desktop .farming-dashboard {
+  background: transparent !important;
+  padding: 0 !important;
+}
+.desktop-1 .smart-farming-dashboard-design,
+.desktop .smart-farming-dashboard-design {
+  background: transparent !important;
+}
+
+/* 페이지별 기존 상단 블록 숨김 (Layout로 이동) */
+.desktop-1 .container2,
+.desktop .container2 {
+  display: none;
+}
+
+.header {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 24px;
+}
+ 
+.main {
+  display: flex;
+    background: #ffffff;
+    border: 2px solid #cad5e2;
+    border-radius: 0 10px 10px 10px;
+    padding: 18px;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: hidden;
+    height: auto; 
+    margin: 0 auto; 
+    
+}
+ 
