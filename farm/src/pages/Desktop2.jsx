@@ -80,9 +80,6 @@ export const Desktop2 = ({ className, ...props }) => {
                   </div>
                 </div>
 
-
-        <div className="text4">
-        </div>
     </div>
   );
 };
