@@ -303,6 +303,9 @@
   border-color: rgba(0, 0, 0, 0.1);
   border-width: 1px;
   padding: 1px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   height: 372px;
   position: relative;
   grid-column: 2 / span 1;
@@ -326,7 +329,21 @@
   left: 0px;
   top: -2px;
 }
-
+.desktop-3 .card6 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 372px;
+  position: relative;
+}
 .desktop-3 .div26 {
   color: #0f172b;
   text-align: left;

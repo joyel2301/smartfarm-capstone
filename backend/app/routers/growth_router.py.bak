@@ -1,0 +1,34 @@
+from fastapi import APIRouter, UploadFile, File
+from app.services.supabase_client import supabase
+import csv, io
+
+router = APIRouter(prefix="/growth", tags=["growth"])
+
+@router.get("/weekly")
+def get_growth_weekly():
+    data = supabase.table("growth_weekly").select("*").order("time").execute()
+    return {"items": data.data}
+
+@router.post("/weekly/upload")
+async def upload_growth_csv(file: UploadFile = File(...)):
+    """
+    CSV ?る崝: time,height,leaf_count
+    """
+    content = (await file.read()).decode("utf-8-sig")
+    reader = csv.DictReader(io.StringIO(content))
+    rows = []
+    for row in reader:
+        rows.append({
+            "time": int(row["time"]),
+            "height": float(row["height"]),
+            "leaf_count": float(row["leaf_count"]),
+        })
+    if not rows:
+        return {"status": "empty"}
+
+    # 旮办〈 ?办澊?办? 欷戨车??瓴届毎 ?愲彊 ?呺嵃?错姼
+    for record in rows:
+        supabase.table("growth_weekly").upsert(record).execute()
+
+    return {"status": "ok", "inserted": len(rows)}
+

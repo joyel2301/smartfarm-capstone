@@ -356,11 +356,11 @@
   position: relative;
 }
 .desktop-2 .card-title2 {
-  width: 361px;
+  width: 628px;
   height: 24px;
   position: absolute;
-  left: 24px;
-  top: 315px;
+  left: 25px;
+  top: 25px;
 }
 .desktop-2 .vs-kg2 {
   color: #000000;
@@ -372,4 +372,15 @@
   position: absolute;
   left: 23px;
   top: 26px;
+}
+
+/* Fill area for charts/tables below titles */
+.desktop-2 .card5 .card-content,
+.desktop-2 .card7 .card-content,
+.desktop-2 .card8 .card-content {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  top: 64px;
+  bottom: 16px;
 }

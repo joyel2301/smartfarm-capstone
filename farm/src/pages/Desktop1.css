@@ -355,3 +355,35 @@
   left: 0px;
   top: -2px;
 }
+
+/* Desktop2/4와 유사한 타이틀 위치 */
+.desktop-1 .card-title {
+  width: 628px;
+  height: 24px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+.desktop-1 .chart-title {
+  color: #0a0a0a;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+}
+
+/* 차트 컨텐츠 영역 (타이틀 아래 채우기) */
+.desktop-1 .card5 .card-content,
+.desktop-1 .card6 .card-content,
+.desktop-1 .card7 .card-content {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  top: 64px;
+  bottom: 16px;
+}

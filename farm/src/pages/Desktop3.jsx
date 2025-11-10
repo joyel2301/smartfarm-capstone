@@ -1,4 +1,8 @@
 import "./Desktop3.css";
+import Today24HourChart from "../features/weather/components/Today24HourChart.jsx";
+import WeeklyDiaryChart from "../features/weather/components/WeeklyDiaryChart.jsx";
+import WeeklyForecastChart from "../features/weather/components/WeeklyForecastChart.jsx";
+
 
 export const Desktop3 = ({ className, ...props }) => {
   return (
@@ -66,19 +70,17 @@ export const Desktop3 = ({ className, ...props }) => {
                   <div className="container10">
 
                     <div className="card5">
-                      <div className="card-title">
-                        <div className="div6">오늘의 날씨 예보(온/습도) </div>
-                      </div>
+                      <Today24HourChart />
                     </div>
                     
                     <div className="card6">
-                      <div className="div26">주간 예보 그래프 </div>
+                      <WeeklyForecastChart />
                     </div>
 
                   </div>
 
                   <div className="card7">
-                    <div className="div27">주간 일기 예보 </div>
+                    <WeeklyDiaryChart />
 
 
                   </div>

@@ -1,4 +1,7 @@
 import "./Desktop2.css";
+import StrawberryGrowthChart from "../features/weather/components/StrawberryGrowthChart";
+import StemDiameterChart from "../features/weather/components/StemDiameterChart";
+import StrawberryGrowthSummaryTable from "../features/weather/components/StrawberryGrowthSummaryTable";
 
 export const Desktop2 = ({ className, ...props }) => {
   return (
@@ -60,23 +63,30 @@ export const Desktop2 = ({ className, ...props }) => {
                   <div className="container10">
                     <div className="card5">
                       <div className="card-title">
-                        <div className="div6">초장&amp;엽수 </div>
+                        <div className="div6">초장 &amp; 잎수</div>
                       </div>
-
+                      <div className="card-content">
+                        <StrawberryGrowthChart />
+                      </div>
                     </div>
 
                     <div className="card7">
                       <div className="card-title">
-                        <div className="div6">주간 생육기록 테이블 </div>
+                        <div className="div6">주간 생육기록 요약</div>
                       </div>
-
+                      <div className="card-content">
+                        <StrawberryGrowthSummaryTable />
+                      </div>
                     </div>
                   </div>
 
                   <div className="card8">
-                    <div className="card-title2"></div>
-                    <div className="vs-kg2">주간 예상vs실제 수확량(kg) </div>
-
+                    <div className="card-title2">
+                      <div className="div6">주간 관부직경 변화</div>
+                    </div>
+                    <div className="card-content">
+                      <StemDiameterChart />
+                    </div>
                   </div>
                 </div>
 
