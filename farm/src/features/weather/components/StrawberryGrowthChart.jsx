@@ -8,7 +8,10 @@ const StrawberryGrowthChart = ({ data = [] }) => {
       : [
           { week: "Week 1", height: 10, leaves: 5 },
           { week: "Week 2", height: 20, leaves: 10 },
-          { week: "Week 3", height: 30, leaves: 18 },
+          { week: "Week 3", height: 30, leaves: 18 }, 
+          { week: "Week 4", height: 30, leaves: 18 },
+          { week: "Week 5", height: 30, leaves: 20 },
+          { week: "Week 6", height: 30, leaves: 20 },
         ];
 
   return (

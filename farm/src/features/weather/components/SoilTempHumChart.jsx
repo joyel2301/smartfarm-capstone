@@ -29,7 +29,7 @@ export default function SoilTempHumChart({ data = defaultData }) {
         <YAxis
           yAxisId="left"
           orientation="left"
-          label={{ value: "온도 (°C)", angle: -90, position: "insideLeft" }}
+          label={{ value: "온실온도 (°C)", angle: -90, position: "insideLeft" }}
         />
         <YAxis
           yAxisId="right"
@@ -45,7 +45,7 @@ export default function SoilTempHumChart({ data = defaultData }) {
           stroke="#2563eb"
           fillOpacity={0.6}
           fill="#bfdbfe"
-          name="토양온도 (°C)"
+          name="온실온도 (°C)"
           strokeWidth={2}
         />
         <Area

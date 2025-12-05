@@ -1,7 +1,21 @@
 import React from "react";
 
 const StrawberryGrowthSummaryTable = ({ data = [] }) => {
-  const sortedData = [...data].sort((a, b) => new Date(b.date) - new Date(a.date));
+  const withWeek = (Array.isArray(data) ? data : []).map((d) => {
+    const explicit = Number(d?.week);
+    if (Number.isFinite(explicit)) return { ...d, _week: explicit };
+    const m = String(d?.date || "").match(/\d+/);
+    const parsed = m ? Number(m[0]) : NaN;
+    return { ...d, _week: Number.isFinite(parsed) ? parsed : null };
+  });
+
+  const sortedData = withWeek.sort((a, b) => {
+    if (a._week != null && b._week != null) return a._week - b._week;
+    if (a._week != null) return -1;
+    if (b._week != null) return 1;
+    return String(a?.date || "").localeCompare(String(b?.date || ""));
+  });
+
   const rowCount = Math.max(sortedData.length, 5);
 
   const formatNumber = (num) => {
@@ -34,10 +48,10 @@ const StrawberryGrowthSummaryTable = ({ data = [] }) => {
             const row = sortedData[idx];
             return (
               <tr key={idx}>
-                <td style={tdStyle}>{row?.date || "-"}</td>
-                <td style={tdStyle}>{row ? formatNumber(row.height) : "-"}</td>
-                <td style={tdStyle}>{row ? formatNumber(row.leaves) : "-"}</td>
-                <td style={tdStyle}>{row ? formatNumber(row.stem) : "-"}</td>
+                <td style={tdStyle}>{row?.date || (row?._week != null ? `Week ${row._week}` : "-")}</td>
+                <td style={tdStyle}>{row ? formatNumber(row?.height) : "-"}</td>
+                <td style={tdStyle}>{row ? formatNumber(row?.leaves) : "-"}</td>
+                <td style={tdStyle}>{row ? formatNumber(row?.stem) : "-"}</td>
                 <td
                   style={{
                     ...tdStyle,

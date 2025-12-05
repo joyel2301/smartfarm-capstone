@@ -2,6 +2,7 @@ import "./Desktop1.css";
 import SoilTempHumChart from "../features/weather/components/SoilTempHumChart";
 import SoilMoistureGauge from "../features/weather/components/SoilMoistureGauge";
 import DailyPHLevelChart from "../features/weather/components/DailyPHLevelChart";
+import GrowthDataPanel from "../features/growth/components/GrowthDataPanel";
 
 export const Desktop1 = ({ className, ...props }) => {
   return (
@@ -11,7 +12,7 @@ export const Desktop1 = ({ className, ...props }) => {
         <div className="card-container">
           <div className="card">
             <div className="soil-chart2">
-              <img className="icon" src="icon0.svg" />
+
               <div className="container6">
                 <div className="div2">토양 습도</div>
                 <div className="paragraph2">
@@ -23,10 +24,10 @@ export const Desktop1 = ({ className, ...props }) => {
 
           <div className="card2">
             <div className="soil-chart2">
-              <img className="icon2" src="icon1.svg" />
+
               <div className="container7">
                 <div className="paragraph3">
-                  <div className="div3">토양 온도</div>
+                  <div className="div3">온실 온도</div>
                 </div>
                 <div className="paragraph2">
                   <div className="_24-c">24℃ </div>
@@ -37,10 +38,10 @@ export const Desktop1 = ({ className, ...props }) => {
 
           <div className="card3">
             <div className="soil-chart2">
-              <img className="icon3" src="icon2.svg" />
+
               <div className="container8">
                 <div className="paragraph3">
-                  <div className="p-h">pH </div>
+                  <div className="p-h">Co2 </div>
                 </div>
                 <div className="paragraph2">
                   <div className="_6-9">6.9 </div>
@@ -51,7 +52,7 @@ export const Desktop1 = ({ className, ...props }) => {
 
           <div className="card4">
             <div className="soil-chart2">
-              <img className="icon4" src="icon3.svg" />
+
               <div className="container9">
                 <div className="paragraph3">
                   <div className="div4">상태</div>
@@ -87,14 +88,15 @@ export const Desktop1 = ({ className, ...props }) => {
 
         <div className="card7">
           <div className="card-title2">
-            <div className="p-h-level">일일 pH 변화</div>
+            <div className="p-h-level">일일 CO2 변화</div>
           </div>
           <div className="card-content">
             <DailyPHLevelChart />
           </div>
         </div>
+
+
       </div>
     </div>
   );
 };
-

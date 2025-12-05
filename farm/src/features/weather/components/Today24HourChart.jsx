@@ -6,7 +6,7 @@ const data = [
   { time: "00:00", temp: 14 },
   { time: "01:00", temp: 14 },
   { time: "02:00", temp: 13 },
-  { time: "03:00", temp: 13 },
+  { time: "03:00", temp: 15 },
   { time: "04:00", temp: 14 },
   { time: "05:00", temp: 15 },
   { time: "06:00", temp: 16 },

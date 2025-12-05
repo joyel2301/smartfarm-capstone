@@ -13,7 +13,7 @@ export const Desktop3 = ({ className, ...props }) => {
                   <div className="container5">
                     <div className="card">
                       <div className="weather-chart2">
-                        <img className="icon" src="icon0.svg" />
+
                         <div className="container6">
                           <div className="div2">온도 </div>
                           <div className="paragraph2">
@@ -25,7 +25,7 @@ export const Desktop3 = ({ className, ...props }) => {
 
                     <div className="card2">
                       <div className="weather-chart2">
-                        <img className="icon2" src="icon1.svg" />
+
                         <div className="container7">
                           <div className="paragraph3">
                             <div className="div3">습도 </div>
@@ -39,10 +39,10 @@ export const Desktop3 = ({ className, ...props }) => {
 
                     <div className="card3">
                       <div className="weather-chart2">
-                        <img className="icon3" src="icon2.svg" />
+
                         <div className="container8">
                           <div className="paragraph3">
-                            <div className="div4">조도 </div>
+                            <div className="div4">강수량 </div>
                           </div>
                           <div className="paragraph2">
                             <div className="_0-mm">0mm </div>
@@ -53,7 +53,7 @@ export const Desktop3 = ({ className, ...props }) => {
 
                     <div className="card4">
                       <div className="weather-chart2">
-                        <img className="icon4" src="icon3.svg" />
+
                         <div className="container9">
                           <div className="paragraph3">
                             <div className="div5">풍속 </div>

@@ -10,7 +10,7 @@ export const Desktop5 = ({ className, ...props }) => {
               <div className="container12">
                     <div className="card3">
                       <div className="livestock-chart2">
-                        <img className="icon9" src="icon8.svg" />
+
                         <div className="container13">
                           <div className="paragraph7">
                             <div className="div14">실시간 상태 </div>
@@ -24,7 +24,7 @@ export const Desktop5 = ({ className, ...props }) => {
 
                     <div className="card4">
                       <div className="livestock-chart3">
-                        <img className="icon10" src="icon9.svg" />
+
                         <div className="container14">
                           <div className="paragraph7">
                             <div className="div16">이달의 병충해 </div>
@@ -38,7 +38,7 @@ export const Desktop5 = ({ className, ...props }) => {
 
                     <div className="card5">
                       <div className="livestock-chart3">
-                        <img className="icon11" src="icon10.svg" />
+
                         <div className="container15">
                           <div className="paragraph7">
                             <div className="div18">오늘의 딸기 가격 </div>
@@ -52,7 +52,7 @@ export const Desktop5 = ({ className, ...props }) => {
 
                     <div className="card6">
                       <div className="livestock-chart3">
-                        <img className="icon12" src="icon11.svg" />
+
                         <div className="container16">
                           <div className="paragraph7">
                             <div className="div19">주요 발생 원인 </div>
@@ -67,7 +67,7 @@ export const Desktop5 = ({ className, ...props }) => {
                     <div className="card-header">
                       <div className="pest-disease-card">
                         <div className="card-title">
-                          <img className="icon" src="icon0.svg" />
+
                           <div className="_10">이달의 병충해 관리 (10월) </div>
                         </div>
                         <div className="badge">

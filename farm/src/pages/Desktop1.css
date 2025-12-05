@@ -387,3 +387,25 @@
   top: 64px;
   bottom: 16px;
 }
+
+/* 추가: 생육 패널 카드 스타일 */
+.desktop-1 .card8 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 382px;
+  position: relative;
+}
+
+.desktop-1 .card8 .card-content {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  top: 64px;
+  bottom: 16px;
+}

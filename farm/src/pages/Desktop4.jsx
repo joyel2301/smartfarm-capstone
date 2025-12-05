@@ -9,7 +9,7 @@ export const Desktop4 = ({ className = "", ...props }) => {
 
                   <div className="card">
                     <div className="irrigation-chart2">
-                      <img className="icon" src="icon0.svg" />
+
                       <div className="container6">
                         <div className="paragraph2">
                           <div className="water-usage">Water Usage </div>
@@ -23,7 +23,7 @@ export const Desktop4 = ({ className = "", ...props }) => {
 
                   <div className="card2">
                     <div className="irrigation-chart2">
-                      <img className="icon2" src="icon1.svg" />
+
                       <div className="container7">
                         <div className="paragraph2">
                           <div className="efficiency">Efficiency </div>
@@ -37,7 +37,7 @@ export const Desktop4 = ({ className = "", ...props }) => {
 
                   <div className="card3">
                     <div className="irrigation-chart2">
-                      <img className="icon3" src="icon2.svg" />
+
                       <div className="container8">
                         <div className="paragraph2">
                           <div className="active-zones">Active Zones </div>
@@ -51,7 +51,7 @@ export const Desktop4 = ({ className = "", ...props }) => {
 
                   <div className="card4">
                     <div className="irrigation-chart2">
-                      <img className="icon4" src="icon3.svg" />
+
                       <div className="container9">
                         <div className="paragraph2">
                           <div className="pressure">Pressure </div>
