@@ -24,7 +24,14 @@ const StrawberryGrowthSummaryTable = ({ data = [] }) => {
   };
 
   return (
-    <div style={{ height: "100%", overflow: "auto", border: "1px solid #e5e7eb", borderRadius: 8 }}>
+    <div
+      style={{
+        height: "100%",
+        overflow: "auto",
+        border: "1px solid #e5e7eb",
+        borderRadius: 8,
+      }}
+    >
       <table
         style={{
           width: "100%",
@@ -34,33 +41,38 @@ const StrawberryGrowthSummaryTable = ({ data = [] }) => {
           tableLayout: "fixed",
         }}
       >
-        <thead style={{ position: "sticky", top: 0, backgroundColor: "#f8fafc", zIndex: 1 }}>
+        <thead
+          style={{
+            position: "sticky",
+            top: 0,
+            backgroundColor: "#f8fafc",
+            zIndex: 1,
+          }}
+        >
           <tr>
             <th style={{ ...thStyle, width: "20%" }}>날짜</th>
-            <th style={{ ...thStyle, width: "18%" }}>초장</th>
-            <th style={{ ...thStyle, width: "18%" }}>잎수</th>
-            <th style={{ ...thStyle, width: "18%" }}>관부직경</th>
-            <th style={{ ...thStyle, width: "26%" }}>상태</th>
+            <th style={{ ...thStyle, width: "20%" }}>식물코드</th> {/* ✅ 추가 */}
+            <th style={{ ...thStyle, width: "20%" }}>초장</th>
+            <th style={{ ...thStyle, width: "20%" }}>잎수</th>
+            <th style={{ ...thStyle, width: "20%" }}>관부직경</th>
           </tr>
         </thead>
+
         <tbody>
           {Array.from({ length: rowCount }).map((_, idx) => {
             const row = sortedData[idx];
             return (
               <tr key={idx}>
-                <td style={tdStyle}>{row?.date || (row?._week != null ? `Week ${row._week}` : "-")}</td>
+                <td style={tdStyle}>
+                  {row?.date || (row?._week != null ? `Week ${row._week}` : "-")}
+                </td>
+
+                {/* ✅ 식물 코드 표시 */}
+                <td style={tdStyle}>{row?.plantCode || "-"}</td>
+
                 <td style={tdStyle}>{row ? formatNumber(row?.height) : "-"}</td>
                 <td style={tdStyle}>{row ? formatNumber(row?.leaves) : "-"}</td>
                 <td style={tdStyle}>{row ? formatNumber(row?.stem) : "-"}</td>
-                <td
-                  style={{
-                    ...tdStyle,
-                    color: row?.status === "양호" ? "green" : row?.status ? "#d97706" : "#9ca3af",
-                    fontWeight: row?.status ? "600" : "400",
-                  }}
-                >
-                  {row?.status || "-"}
-                </td>
               </tr>
             );
           })}
@@ -75,8 +87,6 @@ const thStyle = {
   padding: "10px 0",
   fontWeight: "600",
   backgroundColor: "#f8fafc",
-  position: "sticky",
-  top: 0,
   whiteSpace: "nowrap",
 };
 
@@ -89,4 +99,3 @@ const tdStyle = {
 };
 
 export default StrawberryGrowthSummaryTable;
-

@@ -7,7 +7,7 @@
 .desktop-2 .crop-chart {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
   align-items: flex-start;
   justify-content: flex-start;
   align-self: stretch;
@@ -297,6 +297,18 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-template-rows: repeat(1, minmax(0, 1fr));
 }
+
+.desktop-2 .container11 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: grid;
+  gap: 16px;
+  position: relative;
+
+  grid-template-columns: 2fr 1fr;
+
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
 .desktop-2 .card5 {
   background: #ffffff;
   border-radius: 14px;
@@ -354,6 +366,23 @@
   flex-shrink: 0;
   height: 382px;
   position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.desktop-2 .card12 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 382px;
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
 }
 .desktop-2 .card-title2 {
   width: 628px;
@@ -383,4 +412,94 @@
   right: 16px;
   top: 64px;
   bottom: 16px;
+}
+/* 생육 데이터 입력 폼 전체 카드 */
+.growth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  border-radius: 12px;
+
+  font-size: 14px;
+  width: 100%;
+
+}
+
+/* 제목 */
+.growth-form__title {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* 각 필드 래퍼 */
+.growth-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* 라벨 텍스트 */
+.growth-form__label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+/* 인풋 공통 스타일 */
+.growth-form__input {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+
+.growth-form__input::placeholder {
+  color: #9ca3af;
+}
+
+/* 포커스 시 강조 */
+.growth-form__input:focus {
+  border-color: #111827;
+  box-shadow: 0 0 0 1px #1118270f;
+  background-color: #ffffff;
+}
+
+/* 버튼 */
+.growth-form__button {
+  margin-top: 6px;
+  padding: 9px 12px;
+  border-radius: 999px;
+  border: 1px solid #111827;
+  background-color: #111827;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.05s ease, box-shadow 0.15s ease;
+}
+
+.growth-form__button:hover:not(:disabled) {
+  background-color: #020617;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.15);
+  transform: translateY(-1px);
+}
+
+.growth-form__button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+  box-shadow: none;
+}
+
+/* 에러 메시지 */
+.growth-form__error {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #b91c1c;
 }
