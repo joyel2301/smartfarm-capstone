@@ -32,5 +32,5 @@
  ## 디렉토리 구조
   - backend: 백엔드 코드
   - my-app: 프런트엔드 코드
-  - sample: 시연 영상
+  - sample: 시연 사진과 db구조
   
