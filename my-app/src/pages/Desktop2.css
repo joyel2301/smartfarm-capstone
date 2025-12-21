@@ -1,0 +1,505 @@
+
+.desktop-2 * {
+  box-sizing: border-box;
+}
+
+
+.desktop-2 .crop-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 845px;
+  position: relative;
+}
+.desktop-2 .container5 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: grid;
+  gap: 12px;
+  position: relative;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+.desktop-2 .card {
+  background: linear-gradient(
+    135deg,
+    rgba(240, 253, 244, 1) 0%,
+    rgba(220, 252, 231, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #b9f8cf;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-2 .crop-chart2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 308px;
+  height: 44px;
+  position: relative;
+}
+.desktop-2 .icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-2 .container6 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 68.36px;
+  height: 44px;
+  position: relative;
+}
+.desktop-2 .div2 {
+  color: #008236;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-2 .paragraph2 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 28px;
+  position: relative;
+}
+.desktop-2 ._1-247 {
+  color: #0d542b;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-2 .card2 {
+  background: linear-gradient(
+    135deg,
+    rgba(239, 246, 255, 1) 0%,
+    rgba(219, 234, 254, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;  
+  border-color: #bedbff;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-2 .icon2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-2 .container7 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 67.84px;
+  height: 44px;
+  position: relative;
+}
+.desktop-2 .paragraph3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 16px;
+  position: relative;
+}
+.desktop-2 .div3 {
+  color: #1447e6;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-2 ._12 {
+  color: #1c398e;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-2 .card3 {
+  background: linear-gradient(
+    135deg,
+    rgba(254, 252, 232, 1) 0%,
+    rgba(254, 249, 194, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #fff085;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-2 .icon3 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-2 .container8 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 67.84px;
+  height: 44px;
+  position: relative;
+}
+.desktop-2 .div4 {
+  color: #a65f00;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-2 ._23 {
+  color: #733e0a;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-2 .card4 {
+  background: linear-gradient(
+    135deg,
+    rgba(236, 253, 245, 1) 0%,
+    rgba(208, 250, 229, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #a4f4cf;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-2 .icon4 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-2 .container9 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 43.59px;
+  height: 44px;
+  position: relative;
+}
+.desktop-2 .div5 {
+  color: #007a55;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-2 ._850-kg {
+  color: #004f3b;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-2 .container10 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: grid;
+  gap: 16px;
+  position: relative;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.desktop-2 .container11 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: grid;
+  gap: 16px;
+  position: relative;
+
+  grid-template-columns: 2fr 1fr;
+
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+.desktop-2 .card5 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  height: 312px;
+  position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-2 .card-title {
+  width: 628px;
+  height: 24px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.desktop-2 .div6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+}
+
+
+
+.desktop-2 .card7 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  height: 312px;
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.desktop-2 .card8 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 382px;
+  position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.desktop-2 .card12 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 382px;
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-2 .card-title2 {
+  width: 628px;
+  height: 24px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.desktop-2 .vs-kg2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 23px;
+  top: 26px;
+}
+
+/* Fill area for charts/tables below titles */
+.desktop-2 .card5 .card-content,
+.desktop-2 .card7 .card-content,
+.desktop-2 .card8 .card-content {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  top: 64px;
+  bottom: 16px;
+}
+/* 생육 데이터 입력 폼 전체 카드 */
+.growth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  border-radius: 12px;
+
+  font-size: 14px;
+  width: 100%;
+
+}
+
+/* 제목 */
+.growth-form__title {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* 각 필드 래퍼 */
+.growth-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* 라벨 텍스트 */
+.growth-form__label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+/* 인풋 공통 스타일 */
+.growth-form__input {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+
+.growth-form__input::placeholder {
+  color: #9ca3af;
+}
+
+/* 포커스 시 강조 */
+.growth-form__input:focus {
+  border-color: #111827;
+  box-shadow: 0 0 0 1px #1118270f;
+  background-color: #ffffff;
+}
+
+/* 버튼 */
+.growth-form__button {
+  margin-top: 6px;
+  padding: 9px 12px;
+  border-radius: 999px;
+  border: 1px solid #111827;
+  background-color: #111827;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.05s ease, box-shadow 0.15s ease;
+}
+
+.growth-form__button:hover:not(:disabled) {
+  background-color: #020617;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.15);
+  transform: translateY(-1px);
+}
+
+.growth-form__button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+  box-shadow: none;
+}
+
+/* 에러 메시지 */
+.growth-form__error {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #b91c1c;
+}

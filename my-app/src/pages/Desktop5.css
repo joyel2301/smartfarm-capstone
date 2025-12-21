@@ -1,0 +1,23 @@
+.desktop-5 * {
+  box-sizing: border-box;
+}
+
+.desktop-5 {
+  width: 100%;
+}
+
+.desktop-5 .page-shell {
+  width: 100%;
+  max-width: none;
+}
+
+.desktop-5 .pest-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.desktop-5 .pest-layout > * {
+  width: 100%;
+}

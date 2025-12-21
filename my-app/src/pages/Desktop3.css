@@ -1,0 +1,378 @@
+﻿.desktop-3 * {
+  box-sizing: border-box;
+}
+
+
+.desktop-3 .weather-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  gap: 20px;
+  height: 845px;
+  position: relative;
+}
+.desktop-3 .container5 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: grid;
+  gap: 12px;
+  position: relative;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+.desktop-3 .card {
+  background: linear-gradient(
+    135deg,
+    rgba(254, 252, 232, 1) 0%,
+    rgba(254, 249, 194, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #fff085;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-3 .weather-chart2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 308px;
+  height: 44px;
+  position: relative;
+}
+.desktop-3 .icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-3 .container6 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 67.73px;
+  height: 44px;
+  position: relative;
+}
+.desktop-3 .div2 {
+  color: #a65f00;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-3 .paragraph2 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 28px;
+  position: relative;
+}
+.desktop-3 ._29-c {
+  color: #733e0a;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-3 .card2 {
+  background: linear-gradient(
+    135deg,
+    rgba(239, 246, 255, 1) 0%,
+    rgba(219, 234, 254, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #bedbff;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-3 .icon2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-3 .container7 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 49.38px;
+  height: 44px;
+  position: relative;
+}
+.desktop-3 .paragraph3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 16px;
+  position: relative;
+}
+.desktop-3 .div3 {
+  color: #1447e6;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-3 ._58 {
+  color: #1c398e;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-3 .card3 {
+  background: linear-gradient(
+    135deg,
+    rgba(238, 242, 255, 1) 0%,
+    rgba(224, 231, 255, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #c6d2ff;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-3 .icon3 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-3 .container8 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 41.59px;
+  height: 44px;
+  position: relative;
+}
+.desktop-3 .div4 {
+  color: #432dd7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-3 ._0-mm {
+  color: #312c85;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-3 .card4 {
+  background: linear-gradient(
+    135deg,
+    rgba(249, 250, 251, 1) 0%,
+    rgba(243, 244, 246, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-3 .icon4 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-3 .container9 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 68.65px;
+  height: 44px;
+  position: relative;
+}
+.desktop-3 .div5 {
+  color: #364153;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-3 ._11-km-h {
+  color: #101828;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-3 .container10 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: grid;
+  gap: 16px;
+  position: relative;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+.desktop-3 .card5 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 372px;
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-3 .card-title {
+  width: 628px;
+  height: 24px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.desktop-3 .div6 {
+  color: #0a0a0a;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+}
+.desktop-3 .card6 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 372px;
+  position: relative;
+}
+.desktop-3 .div26 {
+  color: #0f172b;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 19px;
+  top: 20.84px;
+}
+.desktop-3 .card7 {
+  background: transparent;
+  border-radius: 14px;
+  border: none;
+  padding: 0;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: auto;
+  min-height: 240px;
+  position: relative;
+}
+.desktop-3 .div27 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}

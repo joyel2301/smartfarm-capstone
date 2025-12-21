@@ -1,0 +1,388 @@
+
+.desktop-4 {
+  width: 100%;
+}
+
+.desktop-4 * {
+  box-sizing: border-box;
+}
+
+.desktop-4 .chart-shell {
+  width: 100%;
+}
+
+.desktop-4 .irrigation-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 0;
+  position: relative;
+}
+.desktop-4 .container5 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: grid;
+  gap: 12px;
+  position: relative;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+.desktop-4 .card {
+  background: linear-gradient(
+    135deg,
+    rgba(239, 246, 255, 1) 0%,
+    rgba(219, 234, 254, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #bedbff;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-4 .irrigation-chart2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 308px;
+  height: 44px;
+  position: relative;
+}
+.desktop-4 .icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-4 .container6 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 69.64px;
+  height: 44px;
+  position: relative;
+}
+.desktop-4 .paragraph2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 16px;
+  position: relative;
+}
+.desktop-4 .water-usage {
+  color: #1447e6;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-4 .paragraph3 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 28px;
+  position: relative;
+}
+.desktop-4 ._678-l {
+  color: #1c398e;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-4 .card2 {
+  background: linear-gradient(
+    135deg,
+    rgba(240, 253, 244, 1) 0%,
+    rgba(220, 252, 231, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #b9f8cf;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-4 .icon2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-4 .container7 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 50.32px;
+  height: 44px;
+  position: relative;
+}
+.desktop-4 .efficiency {
+  color: #008236;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-4 ._97 {
+  color: #0d542b;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-4 .card3 {
+  background: linear-gradient(
+    135deg,
+    rgba(250, 245, 255, 1) 0%,
+    rgba(243, 232, 255, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #e9d4ff;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-4 .icon3 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-4 .container8 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 69.81px;
+  height: 44px;
+  position: relative;
+}
+.desktop-4 .active-zones {
+  color: #8200db;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-4 ._3-5 {
+  color: #59168b;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-4 .card4 {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 247, 237, 1) 0%,
+    rgba(255, 237, 212, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #ffd6a7;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-4 .icon4 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-4 .container9 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 51.07px;
+  height: 44px;
+  position: relative;
+}
+.desktop-4 .pressure {
+  color: #ca3500;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-4 ._51-psi {
+  color: #7e2a0c;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-4 .container10 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: grid;
+  gap: 16px;
+  position: relative;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+.desktop-4 .card5 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  height: 312px;
+  position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-4 .card-title {
+  width: 628px;
+  height: 24px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.desktop-4 .zone-water-usage {
+  color: #0a0a0a;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+}
+.desktop-4 .card6 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  height: 312px;
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-4 .irrigation-schedule {
+  color: #0a0a0a;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+}
+.desktop-4 .card7 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 292px;
+  position: relative;
+}
+.desktop-4 .card-title2 {
+  width: 1322px;
+  height: 24px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.desktop-4 .system-pressure-flow-rate {
+  color: #0a0a0a;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+}

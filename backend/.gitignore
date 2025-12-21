@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Env
+.env
+
+# Chroma / Data
+chroma_store/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

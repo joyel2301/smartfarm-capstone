@@ -1,0 +1,436 @@
+
+.desktop-1 * {
+  box-sizing: border-box;
+}
+
+.desktop-1 .soil-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 845px;
+  position: relative;
+}
+.desktop-1 .card-container {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: grid;
+  gap: 12px;
+  position: relative;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+.desktop-1 .card {
+  background: linear-gradient(
+    135deg,
+    rgba(239, 246, 255, 1) 0%,
+    rgba(219, 234, 254, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #bedbff;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-1 .soil-chart2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 308px;
+  height: 44px;
+  position: relative;
+}
+
+.desktop-1 .icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+
+.desktop-1 .container6 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 71.74px;
+  height: 44px;
+  position: relative;
+}
+.desktop-1 .div2 {
+  color: #1447e6;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-1 .paragraph2 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 28px;
+  position: relative;
+}
+.desktop-1 ._33 {
+  color: #1c398e;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-1 .card2 {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 247, 237, 1) 0%,
+    rgba(255, 237, 212, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #ffd6a7;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-1 .icon2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-1 .container7 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 53.09px;
+  height: 44px;
+  position: relative;
+}
+.desktop-1 .paragraph3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 16px;
+  position: relative;
+}
+.desktop-1 .div3 {
+  color: #ca3500;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-1 ._24-c {
+  color: #7e2a0c;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+
+.desktop-1 .icon3 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-1 .container8 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 47.45px;
+  height: 44px;
+  position: relative;
+}
+.desktop-1 .p-h {
+  color: #8200db;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-1 ._6-9 {
+  color: #59168b;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+
+.desktop-1 .card3 {
+  background: linear-gradient(
+    135deg,
+    rgba(250, 245, 255, 1) 0%,
+    rgba(243, 232, 255, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #e9d4ff;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+.desktop-1 .card4 {
+  background: linear-gradient(
+    135deg,
+    rgba(240, 253, 244, 1) 0%,
+    rgba(220, 252, 231, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #b9f8cf;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.desktop-1 .card10 {
+  background: linear-gradient(
+    135deg,
+    rgb(244, 247, 220) 0%,
+    rgba(244, 247, 220, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #b9f8cf;
+  border-width: 1px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 82px;
+  position: relative;
+  grid-column: 5 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.desktop-1 .icon4 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-1 .container9 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 59.23px;
+  height: 44px;
+  position: relative;
+}
+.desktop-1 .div4 {
+  color: #008236;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-1 .good {
+  color: #0d542b;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.desktop-1 .container10 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: grid;
+  gap: 16px;
+  position: relative;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+.desktop-1 .card5 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  height: 312px;
+  position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.desktop-1 .card6 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  height: 312px;
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+
+.desktop-1 .card7 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 361px;
+  position: relative;
+}
+.desktop-1 .card-title2 {
+  width: 1322px;
+  height: 24px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.desktop-1 .p-h-level {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+}
+
+/* Desktop2/4와 유사한 타이틀 위치 */
+.desktop-1 .card-title {
+  width: 628px;
+  height: 24px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+.desktop-1 .chart-title {
+  color: #0a0a0a;
+  text-align: left;
+  font-family: "Arial-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+}
+
+/* 차트 컨텐츠 영역 (타이틀 아래 채우기) */
+.desktop-1 .card5 .card-content,
+.desktop-1 .card6 .card-content,
+.desktop-1 .card7 .card-content {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  top: 64px;
+  bottom: 16px;
+}
+
+/* 추가: 생육 패널 카드 스타일 */
+.desktop-1 .card8 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 382px;
+  position: relative;
+}
+
+.desktop-1 .card8 .card-content {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  top: 64px;
+  bottom: 16px;
+}

@@ -1,0 +1,241 @@
+﻿.weather-board {
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  align-items: flex-start;
+  background: transparent;
+  border-radius: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+/* 왼쪽 40% / 오른쪽 60% */
+.left-panel {
+  flex: 0 0 40%;
+}
+
+.right-panel {
+  flex: 0 0 60%;
+}
+
+.panel {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 5px 12px rgba(15, 23, 42, 0.05);
+}
+
+.section-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+/* ---- 기상 현황 카드 ---- */
+
+.status-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status-item {
+  width: 100%;
+  border-radius: 14px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid transparent;
+  box-shadow: 0 6px 14px rgba(15, 23, 42, 0.05);
+}
+
+/* 공통 레이아웃 */
+.status-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.status-label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.status-desc {
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+/* 오른쪽 점 */
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+}
+
+/* ---- 상태 없음(회색) ---- */
+.status-item--off {
+  background: #f9fafb;
+  border-color: #e5e7eb;
+  color: #6b7280;
+}
+
+.status-item--off .status-icon {
+  background: #e5e7eb;
+  color: #6b7280;
+}
+
+.status-item--off .status-desc {
+  color: #9ca3af;
+}
+
+.status-item--off .status-dot {
+  background: #d1d5db;
+}
+
+/* ---- 상태 있음 : 비(파랑) ---- */
+.status-item--on.status-item--rain {
+  background: #eef2ff;
+  border-color: #4f46e5;
+  color: #111827;
+}
+
+.status-item--on.status-item--rain .status-icon {
+  background: #4f46e5;
+  color: #ffffff;
+}
+
+.status-item--on.status-item--rain .status-desc {
+  color: #4f46e5;
+}
+
+.status-item--on.status-item--rain .status-dot {
+  background: #6366f1;
+}
+
+/* ---- 상태 있음 : 눈(하늘) ---- */
+.status-item--on.status-item--snow {
+  background: #e0f7ff;
+  border-color: #38bdf8;
+}
+
+.status-item--on.status-item--snow .status-icon {
+  background: #38bdf8;
+  color: #ffffff;
+}
+
+.status-item--on.status-item--snow .status-desc {
+  color: #0ea5e9;
+}
+
+.status-item--on.status-item--snow .status-dot {
+  background: #38bdf8;
+}
+
+/* ---- 상태 있음 : 태풍(주황) ---- */
+.status-item--on.status-item--typhoon {
+  background: #fef2f2;
+  border-color: #f97373;
+}
+
+.status-item--on.status-item--typhoon .status-icon {
+  background: #ef4444;
+  color: #ffffff;
+}
+
+.status-item--on.status-item--typhoon .status-desc {
+  color: #ef4444;
+}
+
+.status-item--on.status-item--typhoon .status-dot {
+  background: #f97373;
+}
+
+/* ---- 재난 특보 카드 ---- */
+
+.alert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.alert-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+
+.alert-main {
+  display: flex;
+  gap: 12px;
+}
+
+.alert-icon {
+  margin-top: 2px;
+}
+
+.alert-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.alert-type {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.alert-message {
+  font-size: 11px;
+  color: #4b5563;
+}
+
+.alert-time {
+  font-size: 10px;
+  color: #9ca3af;
+}
+
+.alert-time span {
+  font-weight: 500;
+}
+
+.alert-level {
+  align-self: flex-start;
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.alert-level.warning {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+.alert-level.danger {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* ---- 차트 영역 숨김 (내용 없을 때 공간 제거) ---- */
+
+.chart-section {
+  display: none;
+}
